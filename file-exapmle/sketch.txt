@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'version' is not defined
+>>> import fmodule
