@@ -1,3 +1,6 @@
+from fmodule import print_lol
+
+
 __author__ = 'zug'
 
 movies = ["The Holy Grail",
@@ -12,11 +15,5 @@ movies = ["The Holy Grail",
             "Terry Jones"]]]
 
 
-def print_lol(the_list):
-    for each_item in the_list:
-        if isinstance(each_item, list):
-            print_lol(each_item)
-        else:
-            print(each_item)
 
 print_lol(movies)
